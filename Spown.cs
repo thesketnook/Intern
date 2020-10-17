@@ -17,6 +17,7 @@ public class Spown : MonoBehaviour
     public void spownBall(GameObject sapwnname)
     {
         Instantiate(sapwnname, pointSpawn.position, Quaternion.identity);
+        //tiweslesr
 
     }
 }
