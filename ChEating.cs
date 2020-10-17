@@ -8,7 +8,7 @@ public class ChEating : MonoBehaviour
 
    public void OnFinshEating()
     {
-        //testRelese
+        //testHotfix
         GetComponent<Animator>().SetBool("chEating", false);
     }
 }
