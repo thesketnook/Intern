@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class ChEating : MonoBehaviour
 {
-    // Start is called before the first frame update
+    
 
    public void OnFinshEating()
     {
+        //testRelese
         GetComponent<Animator>().SetBool("chEating", false);
     }
 }
